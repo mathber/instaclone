@@ -1,0 +1,157 @@
+body {
+    margin: 0%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+img.logo-login {
+
+    display: flex;
+    margin-bottom: 2%;
+    width: 22vw;
+    height: 10vw;
+    right: 96%;
+
+}
+
+.header {
+    display: flex;
+    margin-top: 0.4%;
+    margin-bottom: -2%;
+    position: relative;
+    margin-left: -1%;
+    font-family: "Roboto";
+    font-size: 1.2vw;
+    color: #5E2075;
+    font-weight: '400';
+    text-align: left;
+
+}
+
+.field {
+    margin-top: 5%;
+    margin-bottom: 0.5%;
+    padding: 0.5%;
+}
+
+
+.field2 {
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    padding: 0.5%;
+    width: 65%;
+}
+
+h4 {
+    padding-left: 2.7%;
+    padding-bottom: 8.5%;
+    margin: -3%;
+
+    font-family: "Roboto";
+    color: #5E2075;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+
+}
+
+.header2 {
+    font-size: 3vw;
+    color: #FEFCFF;
+    font-family: "Roboto";
+    font-weight: 800;
+    align-self: center;
+}
+
+.subtitle1 {
+    color: #FEFCFF;
+    font-family: "Roboto";
+    align-self: center;
+    margin: 0;
+    margin-top: 8%;
+    font-size: 3vw;
+    font-weight: 400;
+
+}
+
+.subtitle2 {
+    color: #FEFCFF;
+    font-family: "Roboto";
+    align-self: center;
+    margin: 0;
+    margin-top: 1%;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.subtitle3 {
+    color: #FEFCFF;
+    font-family: "Roboto";
+    align-self: center;
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.bottom2 {
+    align-self: center;
+}
+
+.main {
+    margin: 0%;
+    display: flex;
+}
+
+
+h1.header {
+    font-family: "Roboto";
+    font-size: 2.8vw;
+    color: #5E2075;
+    font-weight: 800;
+    text-align: left;
+}
+h4.field {
+    margin-bottom: 0.5%;
+    margin-left: 4%;
+    font-size: 1.4vw;
+}
+
+@media only screen and (max-width: 599px) {
+    img.logo-login {
+        height: 28vw;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .field2 {
+        width: 67vw;
+        margin-top: 0vw;
+    }
+    h1.header {
+        font-size: 8vw;
+        text-align: center;
+    }
+    div.header {
+        width: 38vw;
+    }
+    h4.field {
+        margin-bottom: 0.5%;
+        margin-left: 4%;
+        font-size: 4vw;
+    }
+    .header2, .subtitle1, .subtitle2, .subtitle3 {
+        font-size: 5vw;
+    }
+    .header2 {
+        margin-top: -2vw;
+    }
+    .subtitle1 {
+        margin-top: 5vw;
+    }
+    
+}

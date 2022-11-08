@@ -1,0 +1,77 @@
+body{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#logo-feed {
+    margin: 0px;
+    width: 14vw;
+    height: 4vw;
+
+    margin-left: 0.5vw;
+    padding-right: 1.5vw;
+
+}
+.feed {
+
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 400;
+    line-height: 2.43vw;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+h2 {
+    margin-left: 0.7vw;
+    padding: 0;
+    padding-right: 1vw;
+}
+#username { color: #FEFEFE }
+#comando {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2vw;
+    margin-right: 1.5vw;
+
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    
+    border-bottom: 0.25vw solid #FE690E;
+    color:#FFFFFF;
+}
+#commentUsername {
+    margin: 0;
+    font-weight: 400;
+    color: #FEFEFE;
+}
+#comment {
+    margin: 0;
+    color: #FEFEFE;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        width: 100%;
+    }
+    #comando, #commentUsername, #comment, #username {
+        font-size: 5vw;
+    }
+    #username {
+        margin-bottom: 0;
+        margin-left: 2vw;
+    }
+    #logo-feed {
+        width: 48vw;
+        height: 14vw;
+    }
+    #comando {
+        text-align: left;
+
+        margin-left: 2vw;
+
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+}

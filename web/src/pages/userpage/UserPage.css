@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#logo {
+    margin: 0px;
+    width: 14vw;
+    height: 4vw;
+
+    margin-top: 0.5vw;
+    margin-left: 2vw;
+    padding-right: 1.5vw;
+
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 3.756vw;
+    line-height: 4vw;
+    color: #1E1E1E;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 1.88vw;
+    color: #1E1E1E;
+
+    padding-left: 2vw;
+}
+
+h3 {
+    width: 6vw;
+    margin-left: 0.7vw;
+
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 1.2vw;
+}
+
+.arrow-up {
+
+    width: 0;
+    height: 0;
+    border-left: solid transparent;
+    border-right: solid transparent;
+
+    border-bottom: solid #FEFEFE;
+
+    border-left-width: clamp(0px, 1.5vw, 70px);
+    border-right-width: clamp(0px, 1.5vw, 55px);
+    border-bottom-width: clamp(0px, 3vw, 55px);
+
+    position: absolute;
+
+    top: 5.2vw;
+    right: 2vw;
+    
+}
+
+.mobileOptions {
+    margin: 0;
+    margin-left: 1vw;
+    font-weight: 300;
+    font-size: 4.6vw;
+}
+
+.edit-menu {
+    margin: 0;
+    text-align: left;
+
+    margin-left: 1vw; margin-bottom: 0.4vw;
+    color: #FEFEFE;
+
+    font-size: 1.3vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        align-self: center;
+        text-align: center;
+        margin-top: 12vw;
+
+        font-size: 6.66vw;
+        line-height: 9vw;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 5vw;
+
+        font-size: 4.44vw;
+    }
+
+    #logo {
+        margin-top: 11vw;
+        margin-left: 3vw;
+        width: 40vw;
+        height: 11.43vw;
+    }
+    .edit-menu {
+        font-size: 2.5vw;
+    }
+}

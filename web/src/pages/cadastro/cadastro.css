@@ -1,0 +1,118 @@
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+h1{
+    display : flex; 
+    align-self: flex-start;
+   
+    margin: 0%;
+
+    font-family: Roboto;
+    font-size: clamp(0px, 3.7vw, 50px);
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #5E2075;
+    
+
+}
+
+h5 {
+
+    display : flex;
+    align-self: flex-start;
+   
+    margin: 0%;
+
+    font-family: 'Roboto';
+    font-size: clamp(0px, 1.205vw, 25px);
+    font-weight: 400;
+    line-height: 1.385vw;
+    letter-spacing: 0em;
+
+    color: #5E2075;
+    
+    padding-left: 7%;
+    padding-bottom: 0.8%;
+
+}
+
+p {
+    padding-left: 7%;
+    margin-bottom: 0.8%;
+    margin-top: 0;
+    
+}
+
+
+#subtitle-logo {
+    display: block;
+
+    margin-top: 2%;
+    margin-left:  auto;
+    margin-right:  auto;
+
+
+    font-family: Roboto;
+    font-size: clamp(20px, 2.76vw, 55px);
+
+    font-weight: 400;
+    line-height: 3.196vw;
+
+    text-align: center;
+
+    color: #FEFCFF;
+
+}
+
+
+#subtitle-logo1 {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+    font-family: Roboto;
+    font-size: clamp(20px, 2.76vw, 55px);
+
+    font-weight: 400;
+    line-height: 3.4vw;
+
+    text-align: center;
+
+    color: #FEFCFF;
+}
+
+#logo_grande {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+
+    width: 45%;
+    max-width: 550px;
+
+}
+
+@media only screen and (max-width: 599px) {
+    body {
+        overflow: auto;
+    }
+    h5 {
+        font-size: 3vw;
+        padding-bottom: 3%;
+    }
+    p#under {
+        padding-bottom: 2%;
+    }
+}
+
+.css-hjn87q-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+    padding: 0px !important;
+}
